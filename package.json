@@ -11,6 +11,7 @@
   "author": "haoqi75",
   "type": "module",
   "devDependencies": {
+    "@parcel/watcher": "^2.6.0",
     "vitepress": "2.0.0-alpha.19",
     "vue": "^3.5.41"
   },
@@ -18,5 +19,8 @@
     "@catppuccin/vitepress": "^0.1.2",
     "sass": "^1.102.0",
     "vitepress-theme-sakura": "^0.5.1"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true
   }
 }
