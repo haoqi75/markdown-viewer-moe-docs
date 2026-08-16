@@ -2,11 +2,6 @@
   "name": "markdown-viewer-moe-docs",
   "version": "1.0.0",
   "description": "文档: 由AI生成的Moe Markdown查看器",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm"
-    }
-  },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
