@@ -14,9 +14,6 @@ hero:
       text: 快速开始
       link: /guide/quick-start
     - theme: alt
-      text: 下载
-      link: /download.html
-    - theme: alt
       text: 预览
       link: https://moe520.cc.cd/
     - theme: alt
