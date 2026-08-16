@@ -2,7 +2,11 @@
 outline: doc
 ---
 
-# 关于
+# 关于 Moe Markdown Viewer
+
+<p align="center">
+  <img src="/icon.png" alt="Moe Markdown Viewer 图标" width="128">
+</p>
 
 ## 这是什么作品
 
@@ -50,3 +54,39 @@ Moe美化、强大功能的Markdown预览器
 - 🦊 **萌系吉祥物** – 可配置透明背景的右下角角色，为页面增添活力
 - 📝 **自定义页脚** – 支持 Markdown 的页脚内容，轻松添加版权或链接
 
+## 🛠️ 技术栈
+- **[marked](https://marked.js.org/)** – Markdown 解析
+- **[Prism.js](https://prismjs.com/)** – 代码高亮
+- **[Gulp](https://gulpjs.com/)** – 构建工具（内联、压缩）
+- **[browser-sync](https://browsersync.io/)** – 开发服务器（热重载）
+- **[pnpm](https://pnpm.io/)** – 包管理
+- **[npm-run-all2](https://github.com/mysticatea/npm-run-all)** – 编排构建任务
+
+## ⭐ Star 历史
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=haoqi75%2Fmarkdown-viewer-moe&type=timeline&logscale=&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=haoqi75/markdown-viewer-moe&type=timeline&theme=dark&logscale&legend=bottom-right&sealed_token=3X3PCxJH5Y_CftorWNMDLyeY7hmF3x_EOZ1MNxiydzdoAcWZiRFDykUDeFRn3EQuvZJkJargBZSEtYm72dWJJ3WESDivZ5SnD4FOqV6rKel42lPDC9ztQA" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=haoqi75/markdown-viewer-moe&type=timeline&logscale&legend=bottom-right&sealed_token=3X3PCxJH5Y_CftorWNMDLyeY7hmF3x_EOZ1MNxiydzdoAcWZiRFDykUDeFRn3EQuvZJkJargBZSEtYm72dWJJ3WESDivZ5SnD4FOqV6rKel42lPDC9ztQA" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=haoqi75/markdown-viewer-moe&type=timeline&logscale&legend=bottom-right&sealed_token=3X3PCxJH5Y_CftorWNMDLyeY7hmF3x_EOZ1MNxiydzdoAcWZiRFDykUDeFRn3EQuvZJkJargBZSEtYm72dWJJ3WESDivZ5SnD4FOqV6rKel42lPDC9ztQA" />
+ </picture>
+</a>
+</div>
+
+## 🤝 贡献
+
+<p align="left">
+  <img src="/stars.png" alt="准备好要部署我了吗" width="220">
+</p>
+
+欢迎提出 Issue 或 Pull Request！
+如果您喜欢这个项目，别忘了点个 **⭐Star** 哦～
+
+## 📄 License
+
+MIT © [ApHeQua758](https://github.com/haoqi75)
+
+## 💖 致谢
+
+本项目由 [AI](https://github.com/) 辅助生成，融合了人类审美与机器效率，愿为您的 Markdown 阅读带来一丝惬意。

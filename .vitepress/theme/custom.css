@@ -4,10 +4,10 @@
 
 :root {
   /* 强化粉色品牌感 */
-  --vp-c-brand-1: #f5c2e7;          /* Catppuccin pink */
-  --vp-c-brand-2: #f2cdcd;
+  --vp-c-brand-1: #fa8adc;          /* Catppuccin pink */
+  --vp-c-brand-2: #d3afaf;
   --vp-c-brand-3: #cba6f7;
-  --vp-c-brand-soft: rgba(245, 194, 231, 0.16);
+  --vp-c-brand-soft: rgba(245, 105, 207, 0.459);
 
   /* 自定义变量，方便复用 */
   --moe-pink: #f5c2e7;

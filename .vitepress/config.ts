@@ -27,7 +27,9 @@ export default defineConfig({
       {
         text: '指南',
         items: [
-          { text: '快速开始', link: '/guide/quick-start' }
+          { text: '快速开始', link: '/guide/quick-start' },
+          { text: '下载编辑好的', link: '/guide/release' },
+          { text: '本地部署', link: '/guide/local' }
         ]
       },
       {
