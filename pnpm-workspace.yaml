@@ -1,5 +1,3 @@
-packages:
-  - 'downloadpage'
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true

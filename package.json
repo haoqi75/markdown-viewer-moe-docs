@@ -2,14 +2,16 @@
   "name": "markdown-viewer-moe-docs",
   "version": "1.0.0",
   "description": "文档: 由AI生成的Moe Markdown查看器",
-  "workspaces": [
-    "downloadpage"
-  ],
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.22.0",
+      "onFail": "download"
+    }
+  },
   "scripts": {
     "dev": "vitepress dev",
-    "build": "run-s build:docs build:dwpage",
-    "build:docs": "vitepress build",
-    "build:dwpage": "pnpm run --filter moe-release-downloadpage build:onefile && node scripts/copy-downloadpage.js",
+    "build": "vitepress build",
     "preview": "vitepress preview"
   },
   "keywords": [],
@@ -21,7 +23,6 @@
   },
   "dependencies": {
     "@catppuccin/vitepress": "^0.1.2",
-    "npm-run-all2": "^9.0.3",
     "sass": "^1.102.0",
     "vitepress-theme-sakura": "^0.5.1"
   }

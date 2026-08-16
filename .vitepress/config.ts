@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-  outDir: "./dist",
+  outDir: "./.vitepress/dist",
   lang: 'zh-CN',
   lastUpdated: true,
   title: 'Moe Markdown Viewer',
