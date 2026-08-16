@@ -4,9 +4,7 @@
   "description": "文档: 由AI生成的Moe Markdown查看器",
   "devEngines": {
     "packageManager": {
-      "name": "pnpm",
-      "version": "^11.22.0",
-      "onFail": "download"
+      "name": "pnpm"
     }
   },
   "scripts": {
