@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Moe Markdown Viewer"
-  text: "Moe美化、强大功能的Markdown预览器"
-  tagline: "由 AI 生成的 Moe Markdown 查看器 · 萌系主题 · 开箱即用"
+  text: "Moe美化、强大功能的 Markdown 预览器"
+  tagline: "由 AI 生成的 Moe Markdown 预览器 · 萌系主题 · 开箱即用"
   image:
     src: /icon.png
     alt: "Moe Markdown Viewer 图标"
