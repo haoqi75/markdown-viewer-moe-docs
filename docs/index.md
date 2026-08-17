@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/haoqi75/markdown-viewer-moe
+    - theme: alt
+      text: Codeberg
+      link: https://codeberg.org/haoqi75/markdown-viewer-moe
 
 features:
   - icon: 🎀

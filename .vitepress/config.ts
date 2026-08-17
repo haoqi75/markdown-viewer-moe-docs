@@ -12,6 +12,15 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   ],
+  markdown: {
+    container: {
+      tipLabel: '💡 提示',
+      warningLabel: '⚠️ 警告',
+      dangerLabel: '🚫 危险',
+      infoLabel: '📝 信息',
+      detailsLabel: '📌 详细信息'
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/icon.png',
@@ -29,7 +38,8 @@ export default defineConfig({
         items: [
           { text: '快速开始', link: '/guide/quick-start' },
           { text: '下载编辑好的', link: '/guide/release' },
-          { text: '本地部署', link: '/guide/local' }
+          { text: '本地部署', link: '/guide/local' },
+          { text: 'GitHub Pages 部署', link: '/guide/github-pages' }
         ]
       },
       {
@@ -38,7 +48,8 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/haoqi75/markdown-viewer-moe' }
+      { icon: 'github', link: 'https://github.com/haoqi75/markdown-viewer-moe' },
+      { icon: 'codeberg', link: 'https://codeberg.org/haoqi75/markdown-viewer-moe' }
     ],
     footer: {
       message: '本作品采用 MIT 许可证发布',
