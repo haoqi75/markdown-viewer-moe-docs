@@ -6,8 +6,9 @@ export default defineConfig({
   outDir: "./.vitepress/dist",
   lang: 'zh-CN',
   lastUpdated: true,
-  title: 'Moe Markdown Viewer',
+  title: 'Moe Markdown Viewer 文档',
   description: '由 AI 生成的 Moe Markdown 查看器 · 萌系主题 · 开箱即用',
+  cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
@@ -18,7 +19,8 @@ export default defineConfig({
       warningLabel: '⚠️ 警告',
       dangerLabel: '🚫 危险',
       infoLabel: '📝 信息',
-      detailsLabel: '📌 详细信息'
+      detailsLabel: '📌 详细信息',
+      noteLabel: '📝 备注'
     }
   },
   themeConfig: {
