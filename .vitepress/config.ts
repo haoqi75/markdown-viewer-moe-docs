@@ -6,12 +6,13 @@ export default defineConfig({
   outDir: "./.vitepress/dist",
   lang: 'zh-CN',
   lastUpdated: true,
-  title: 'Moe Markdown Viewer 文档',
+  title: 'Moe Markdown 预览器文档',
   description: '由 AI 生成的 Moe Markdown 查看器 · 萌系主题 · 开箱即用',
   cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['meta', { name: 'theme-color', content: "#f472b6"}]
   ],
   markdown: {
     container: {
