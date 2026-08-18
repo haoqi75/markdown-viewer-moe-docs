@@ -51,7 +51,11 @@ export default defineConfig({
       btnPlaceholder: '搜索',
       placeholder: '搜索文档',
       emptyText: '空空如也',
-      heading: '共: {{searchResult}}',
+      heading: '共: {{searchResult}} 条结果',
+      toSelect: '去选择',
+      toNavigate: '去导航',
+      toClose: '去关闭',
+      searchBy: '搜索为',
       customSearchQuery: chineseSearchOptimize
     })],
   },
