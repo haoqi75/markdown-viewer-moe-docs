@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import '@catppuccin/vitepress/theme/mocha/pink.css'
-import './custom.css'
+import './style.css'
 
 export default {
   extends: DefaultTheme,

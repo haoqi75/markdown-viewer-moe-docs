@@ -1,18 +1,40 @@
 import { defineConfig } from 'vitepress'
+import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
   outDir: "./.vitepress/dist",
-  lang: 'zh-CN',
+  lang: 'zh-cn',
   lastUpdated: true,
   title: 'Moe Markdown 预览器文档',
   description: '由 AI 生成的 Moe Markdown 查看器 · 萌系主题 · 开箱即用',
   cleanUrls: true,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
-    ['meta', { name: 'theme-color', content: "#f472b6"}]
+    [
+      'link',
+      { rel: 'icon', href: '/favicon.ico' }
+    ],
+    [
+      'link',
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+    ],
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
+    ],
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }
+    ],
+    [
+      'link',
+      { href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=ZCOOL+KuaiLe&display=swap', rel: 'stylesheet' }
+    ],
+    [
+      'meta',
+      { name: 'theme-color', content: "#f472b6"}
+    ]
   ],
   markdown: {
     container: {
@@ -23,6 +45,15 @@ export default defineConfig({
       detailsLabel: '📌 详细信息',
       noteLabel: '📝 笔记'
     }
+  },
+  vite: {
+    plugins: [pagefindPlugin({
+      btnPlaceholder: '搜索',
+      placeholder: '搜索文档',
+      emptyText: '空空如也',
+      heading: '共: {{searchResult}}',
+      customSearchQuery: chineseSearchOptimize
+    })],
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

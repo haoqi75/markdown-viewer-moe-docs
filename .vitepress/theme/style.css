@@ -2,9 +2,6 @@
    基于 Catppuccin Mocha + Pink 的萌系增强
    ============================================================ */
 
-/* 字体 */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=ZCOOL+KuaiLe&display=swap');
-
 :root {
   /* 强化粉色品牌感 */
   --vp-c-brand-1: #fa8adc;          /* Catppuccin pink */
