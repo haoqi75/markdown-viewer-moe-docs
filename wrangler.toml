@@ -1,3 +1,4 @@
 name = "markdown-viewer-moe-docs"
 compatibility_date = "2026-08-16"
 compatibility_flags = [ "nodejs_compat" ]
+pages_build_output_dir = "./.vitepress/dist"
