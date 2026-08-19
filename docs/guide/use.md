@@ -20,7 +20,7 @@
 
 ### 使用方式
 
-- 方法1：通过编辑 `config.json` 里的 `"defaultUrl"` 和 `"aliases"` （[见配置说明](/config#配置说明)）然后重新构建（[见本地部署](/guide/local)）。
+- 方法1：通过编辑 `config.json` 里的 `"defaultUrl"` 和 `"aliases"`（[见配置说明](/config/index#配置说明)）然后重新构建（[见本地部署](/guide/local)）。
 - 方法2：下载[Release](/guide/release)文件。按照步骤编辑。
 - 方法3：在地址栏提供参数，在地址栏写`?md=<base64 url>`即可访问到Markdown文件。
 
