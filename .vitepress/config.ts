@@ -3,7 +3,7 @@ import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: "docs",
+  srcDir: "./docs",
   outDir: "./.vitepress/dist",
   lang: 'zh-cn',
   lastUpdated: true,
@@ -55,7 +55,9 @@ export default defineConfig({
       toSelect: '去选择',
       toNavigate: '去导航',
       toClose: '去关闭',
-      searchBy: '搜索为',
+      searchBy: '基于',
+      // forceLanguage: 'zh-cn',
+      indexingCommand: 'pagefind --site "./.vitepress/dist" --output-path "./.vitepress/dist/pagefind" --exclude-selectors "div.aside, a.header-anchor"',
       customSearchQuery: chineseSearchOptimize
     })],
   },

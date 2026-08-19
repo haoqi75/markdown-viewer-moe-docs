@@ -1,5 +1,6 @@
 ---
 layout: home
+pagefind-indexed: false
 
 hero:
   name: "Moe Markdown Viewer"
