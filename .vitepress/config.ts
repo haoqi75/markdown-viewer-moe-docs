@@ -44,6 +44,10 @@ export default defineConfig({
       infoLabel: 'ℹ️ 信息',
       detailsLabel: '📌 详细信息',
       noteLabel: '📝 笔记'
+    },
+    codeCopyButton: {
+        tooltipText: '复制代码',
+        copiedText: '已复制'
     }
   },
   vite: {
@@ -52,9 +56,9 @@ export default defineConfig({
       placeholder: '搜索文档',
       emptyText: '空空如也',
       heading: '共: {{searchResult}} 条结果',
-      toSelect: '去选择',
-      toNavigate: '去导航',
-      toClose: '去关闭',
+      toSelect: '选择',
+      toNavigate: '导航',
+      toClose: '关闭',
       searchBy: '基于',
       // forceLanguage: 'zh-cn',
       indexingCommand: 'pagefind --site "./.vitepress/dist" --output-path "./.vitepress/dist/pagefind" --exclude-selectors "div.aside, a.header-anchor"',
@@ -66,7 +70,8 @@ export default defineConfig({
     logo: '/icon.png',
     nav: [
       { text: '主页', link: '/' },
-      { text: '快速开始', link: '/guide/quick-start' }
+      { text: '快速开始', link: '/guide/quick-start', activeMatch: '/guide/' },
+      { text: '配置文件', link: '/config', activeMatch: '/config/' }
     ],
     editLink: {
       pattern: 'https://github.com/haoqi75/markdown-viewer-moe-docs/edit/main/docs/:path',
@@ -76,10 +81,19 @@ export default defineConfig({
       {
         text: '指南',
         items: [
-          { text: '快速开始', link: '/guide/quick-start' },
-          { text: '下载编辑好的', link: '/guide/release' },
-          { text: '本地部署', link: '/guide/local' },
-          { text: 'GitHub Pages 部署', link: '/guide/github-pages' }
+          { text: '🚀 快速开始', link: '/guide/quick-start' },
+          { text: '📥 下载编辑好的', link: '/guide/release' },
+          { text: '💻 本地部署', link: '/guide/local' },
+          { text: '☁ GitHub Pages 部署', link: '/guide/github-pages' },
+          { text: '☁ Codeberg Pages 部署', link: '/guide/codeberg-pages' },
+          { text: '🌐 使用', link: '/guide/use' }
+        ]
+      },
+      {
+        text: '配置',
+        items: [
+          { text: '概览', link: '/config' },
+          { text: '生产版配置', link:'/config/normal' }
         ]
       },
       {

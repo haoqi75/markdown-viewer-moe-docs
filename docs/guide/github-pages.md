@@ -1,4 +1,4 @@
-# GitHub Pages 部署
+# ☁ GitHub Pages 部署
 
 Actions文件在：[`.github/workflows/static.yml`](https://github.com/haoqi75/markdown-viewer-moe/blob/main/.github/workflows/static.yml)
 
