@@ -5,4 +5,3 @@ cache/
 *.log
 session-ses*
 bun.lock
-package-lock.json
