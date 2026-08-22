@@ -28,7 +28,7 @@
 
 ### 地址参数
 
-- `?p=`：别名，在[配置文件](#配置说明)或 [Release](#下载编辑好的) 头部编辑别名，别名编辑好后，可以按照这个方式访问：
+- `?p=`：别名，在[配置文件](/config/index)或 [Release](/guide/release) 头部编辑别名，别名编辑好后，可以按照这个方式访问：
   ```
   http://127.0.0.1:8520/?p=page
   ```
@@ -47,4 +47,4 @@
 
 >[!TIP]
 >加密base64可以使用 `btoa('https://...')` 在浏览器控制台编码。或者在终端输入 `echo "https://..." | base64` 也可以获取base64加密。
->从tools v1.4.0 后可以使用它加密。具体使用访问[tools.html](https://moe520.haoqi75.os.kg/tools.html) 或者[备用地址](https://moe520.haoqi75.cn.mt/tools.html)。
+>从tools v1.4.0 后可以使用它加密。具体使用访问[简单编辑 config.json 工具](/config/editor)。

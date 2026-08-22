@@ -93,7 +93,9 @@ export default defineConfig({
         text: '配置',
         items: [
           { text: '概览', link: '/config' },
-          { text: '生产版配置', link:'/config/normal' }
+          { text: '生产版配置', link: '/config/normal' },
+          { text: '发布版配置', link: '/config/release' },
+          { text: '简单编辑 config.json 工具', link: '/config/editor' }
         ]
       },
       {
